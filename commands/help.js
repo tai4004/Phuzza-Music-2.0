@@ -49,7 +49,7 @@ module.exports = {
           { name: '🔀 Shuffle', value: 'Shuffle the songs in queue' },
           { name: '📃 playlist', value: 'manage the playlists' }
         )
-        .setImage(`https://cdn.discordapp.com/attachments/1004341381784944703/1165201249331855380/RainbowLine.gif?ex=654f37ba&is=653cc2ba&hm=648a2e070fab36155f4171962e9c3bcef94857aca3987a181634837231500177&`); 
+        .setImage(`https://media.discordapp.net/attachments/765285596016148491/1249498226348789824/image.png?ex=66678567&is=666633e7&hm=46e6907fd4df19ba5761c5563405fdecb7ba22bff78fbbb98e6368c9ed3e1415&=&format=webp&quality=lossless`); 
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
@@ -62,7 +62,7 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/765285596016148491/1249498226348789824/image.png?ex=66678567&is=666633e7&hm=46e6907fd4df19ba5761c5563405fdecb7ba22bff78fbbb98e6368c9ed3e1415&')
+       .setImage('https://media.discordapp.net/attachments/765285596016148491/1249498226348789824/image.png?ex=66678567&is=666633e7&hm=46e6907fd4df19ba5761c5563405fdecb7ba22bff78fbbb98e6368c9ed3e1415&=&format=webp&quality=lossless')
 
 
       interaction.reply({
